@@ -12,8 +12,8 @@ A simple example showing basic module imports and how to organize code into sepa
 ### 02_intermediate_app
 A more complex application showing how to structure a package with multiple modules and subpackages. This example demonstrates absolute imports and how to organize code into logical packages with proper separation of concerns.
 
-### 03_import_errors
-A collection of common import errors and their solutions. This example helps developers understand what can go wrong with imports and how to fix common issues.
+### 03_parent_path_discovery
+An example demonstrating how to use Python's `-m` flag to ensure proper package discovery. This shows how running Python modules as scripts affects import behavior and why using `-m` is important for proper import functionality.
 
 ### 04_relative_path_structure
 A duplicate of the intermediate app but using relative imports instead of absolute imports. This example demonstrates why relative imports are generally not recommended, especially when it comes to testing, and how they can make code more fragile.
